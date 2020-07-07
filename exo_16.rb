@@ -11,10 +11,12 @@ user_age_at_that_time= user_year_of_birth - user_year_of_birth
 
 i = user_year_of_birth
 j=number_of_years
+
 loop do
-  puts "Il y a #{j} ans , tu avais #{user_age_at_that_time} ans"
-  break if i == current_year
-  i = i + 1
-  j= j - 1
-  user_age_at_that_time = user_age_at_that_time + 1
+   puts "Il y a #{j} ans , tu avais #{user_age_at_that_time} ans"
+   break if i == current_year
+   i = i + 1
+   j= j - 1
+   user_age_at_that_time = user_age_at_that_time + 1
 end
+
